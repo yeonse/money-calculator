@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화폐 계산기</title>
+</head>
+<body>
+    <h1>화폐 계산기</h1>
+    <!-- 오만원 선택 -->
+    <label for="currency50k">50,000 :</label>
+    <span id="currency1k" value="1000">오만원</span>
+    <label for="amount50k">=</label>
+    <input type="number" id="amount50k" min="1" value="1">
+    <br><br>
+    <!-- 만원 선택 -->
+    <label for="currency10k">10,000 :</label>
+    <span id="currency1k" value="1000">만원</span>
+    <label for="amount10k">=</label>
+    <input type="number" id="amount10k" min="1" value="1">
+    <br><br>
+    <!-- 오천원 선택 -->
+    <label for="currency5k">5,000 :</label>
+    <span id="currency1k" value="1000">오천원</span>
+    <label for="amount5k">=</label>
+    <input type="number" id="amount5k" min="1" value="1">
+    <br><br>
+    <!-- 천원 선택 -->
+    <label for="currency1k">1,000 :</label>
+    <span id="currency1k" value="1000">천원</span>
+    <label for="amount1k">=</label>
+    <input type="number" id="amount1k" min="1" value="1">
+    <br><br>
+    <!-- 오백원 선택 -->
+    <label for="currency500">500 :</label>
+    <span id="currency1k" value="1000">오백원</span>
+    <label for="amount500">=</label>
+    <input type="number" id="amount500" min="1" value="1">
+    <br>
+    <br>
+    <button onclick="calculate()">계산하기</button>
+    <h2 id="result"></h2>
+    <script src="calculator.js"></script>
+</body>
+</html>
